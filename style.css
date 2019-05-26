@@ -1,0 +1,115 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* #header_section{
+    display:inline-block;
+    width: 100%;
+    height: 6vh;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    position: relative;
+ }
+ .logo{
+     display:inline-block;
+     float: left;
+ }
+ .about{
+     display:inline-block;
+     float:right;
+ } */
+#img_section{
+    height: 100vh;
+    width: 100vw;
+}
+ .main_img{
+     height: 100vh;
+     position: relative;
+ }
+ .study{
+     width: 100%;
+     height: 100vh;
+     position: absolute;
+ }
+ .main_intro{
+     color: white;
+     box-sizing: border-box;
+     width: 100%;
+     position: absolute;
+     text-align: center;
+     padding-top: 50vh;
+     top: 0;
+ }
+ #profile_section{
+    height: 100vh;
+    width: 100vw;
+ }
+ .profile_img{
+    margin-top: 25vh;
+    margin-left: 10vw;
+    width: 25vw;
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+
+    background: url('image/profile.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.profile_desc{
+    float: left;
+    width: 63vw;
+    height: 50vh;
+    margin: 5vh 1vw 0 1vw;
+}
+
+.profile_name{
+    text-align: center;
+    margin-top: 6vh;
+}
+.profile_explain{
+    padding: 3vh 0 0 0 ;
+    text-align: center;
+}
+.last_p {
+    margin-top : 5vh;
+}
+
+.book1{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background: url('image/book1.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.book2{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background: url('image/book2.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.book3{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background: url('image/book3.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.book4{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background: url('image/book4.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
